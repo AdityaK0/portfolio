@@ -215,14 +215,17 @@ section { padding: 5.5rem 0; border-top: 1px solid var(--border); }
 }
 .sgroup:hover { border-color: #C0BAB4; box-shadow: 0 4px 20px rgba(0,0,0,.04); }
 .sgroup-title { font-size: .7rem; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: var(--text-muted); margin-bottom: 1.1rem; }
-.stags { display: flex; flex-wrap: wrap; gap: .4rem; }
+.stags { display: flex; flex-wrap: wrap; gap: 0.8rem; }
 .stag {
     display: flex; align-items: center; gap: 7px;
-    font-size: .78rem; background: var(--tag-bg); color: var(--tag-text);
-    padding: .28rem .7rem; border-radius: 999px; transition: background .15s, color .15s; cursor: default;
+    font-size: 0.86rem; background: var(--tag-bg); color: var(--tag-text);
+    padding: .30rem 1rem; border-radius: 999px; transition: background .15s, color .15s; cursor: default;
+    
 }
-.stag i { font-size: 15px; }
+.stag i { font-size: 17px; }
+  
 .stag:hover { background: var(--dark); color: #fff; }
+
 
 /* ── EXPERIENCE ── */
 .exp-list { display: flex; flex-direction: column; }
