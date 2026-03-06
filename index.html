@@ -241,8 +241,7 @@
         <div class="stags">
           <span class="stag"><i class="devicon-docker-plain"></i>Docker</span>
           <span class="stag"><i class="devicon-nginx-plain"></i>Nginx</span>
-          <span class="stag"><i class="devicon-git-plain"></i>Git</span>
-          <span class="stag"><i class="devicon-github-original"></i>GitHub / GitLab</span>
+          <span class="stag"><i class="devicon-github-plain"></i>GitHub</span>
           <span class="stag"><i class="devicon-githubactions-plain"></i>CI/CD</span>
           <span class="stag"><i class="devicon-amazonwebservices-plain"></i>AWS</span>
           <span class="stag"><i class="devicon-linux-plain"></i>Linux</span>
@@ -260,8 +259,10 @@
     <span class="stag">Microservices Architecture</span>
     <span class="stag">REST API Design</span>
     <span class="stag">Event-Driven Systems</span>
+    <span class="stag">Multitenant Architecture</span>
     <span class="stag">Message Queues</span>
     <span class="stag">Background Jobs (Celery / RQ)</span>
+    <span class="stag">Websockets</span>
     <span class="stag">Caching Strategies</span>
     <span class="stag">Rate Limiting</span>
     <span class="stag">API Versioning</span>
@@ -360,21 +361,20 @@
               <div class="pcard-type">Full Stack</div>
             </div> -->
             <div class="pcard-name">FullStack Note App</div>
-            <div class="pcard-desc">
+<div class="pcard-desc">
+This is a full-stack note-taking application built using <b>Django (DRF)</b> for the backend and <b>ReactJS</b> for the frontend. 
+It features secure authentication using <b>JWT</b> with registration, login, logout, token management, <b>automatic token refresh</b>, and blacklist handling for enhanced security.
 
-                This is a full-stack note-taking application built using <b>Django (DRF)</b> for the backend and <b>ReactJS</b> for the frontend. It features secure user authentication with <b>JWT</b>, supporting registration, login, logout, token management, <b>automatic token refresh</b>, and blacklist handling for enhanced security. Users can seamlessly perform <b>CRUD</b> operations on notes—create, read, update, delete, pin, and unpin.
-                <b>Used github actions CI/CD to automate deployment </b>
-                <!-- <br> -->
-                The backend is deployed on <b>AWS EC2</b> using <b>Gunicorn</b> and <b>Nginx</b>, with <b>DuckDNS</b> for domain management and <b>Let's Encrypt SSL</b> for secure HTTPS access. The frontend is hosted on <b>Netlify</b>, and the database is managed on <b>NeonDB</b> for high availability and performance.
+Users can seamlessly perform full <b>CRUD operations</b> on notes including create, edit, delete, pin, and unpin.
 
-              <!-- This is a full-stack note-taking application built using <b>Django (DRF)</b> and <b>ReactJS</b>.
-              It features authentication with <b>JWT</b>, token refresh, blacklist handling and full
-              <b>CRUD operations</b> including pin and unpin notes.
-              <br><br>
-              Backend deployed on <b>AWS EC2</b> using <b>Gunicorn</b> and <b>Nginx</b>.
-              Frontend hosted on <b>Netlify</b>. Database on <b>NeonDB</b>.
-              Deployment automated with <b>GitHub Actions</b>. -->
-            </div>
+A key feature of the platform is the ability to <b>generate public shareable links</b> for notes. 
+Users can mark a note as <b>public</b>, which generates a unique link that can be shared on <b>social media </b>or with anyone. 
+Recipients can view the note through the public archive page without needing an account. 
+Notes can also be switched back to <b>private</b> at any time for full control over visibility.
+
+Deployment is automated using <b>GitHub Actions CI/CD</b>. The backend runs on <b>AWS EC2</b> using <b>Gunicorn</b> and <b>Nginx</b>, with <b>DuckDNS</b> for domain routing and <b>Let's Encrypt</b> for HTTPS security. 
+The frontend is hosted on <b>Netlify</b>, and the database is managed on <b>NeonDB</b> for reliability and performance.
+</div>
             <div class="pcard-tags">
               <span class="pcard-tag">Python</span>
               <span class="pcard-tag">Django DRF</span>
