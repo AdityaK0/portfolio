@@ -414,3 +414,8 @@ section { padding: 5.5rem 0; border-top: 1px solid var(--border); }
     .footer-wrap { flex-direction: column; gap: .5rem; text-align: center; }
     .hero-top-row { flex-wrap: wrap; }
 }
+
+.hero-seo-title{
+  position:absolute;
+  left:-9999px;
+}
